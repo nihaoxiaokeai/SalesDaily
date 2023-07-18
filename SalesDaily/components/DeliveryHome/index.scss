@@ -1,0 +1,27 @@
+.wrap {
+  width: 100%;
+  margin-top: 5px;
+}
+.left {
+  width: 100%;
+  background-color: #ffffff;
+}
+.leftContent {
+  float: left;
+  width: 18%;
+  background-color: #f4f4f4;
+  margin-left: 10px;
+}
+.right {
+  background-color: "blue";
+  overflow-x: scroll;
+  ::-webkit-scrollbar  
+{  
+    width: 2px;  
+    height: 110px;  
+    background-color: #F5F5F5;  
+}
+}
+.rightContent {
+  width: 720px;
+}
